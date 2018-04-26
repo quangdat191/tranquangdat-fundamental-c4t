@@ -12,10 +12,12 @@
 #                 b.remove(n)
 # print(a)
 
-# # Cach_2
-#     for j in a[i+1:]:
-#         if a[i] == j:
-#             a.remove(a[i])
-#             a.remove(j)
-# print(a)
+# Cach_2
+a = [12, 24, 35, 24, 88, 120, 155, 88, 120, 155]
+for i in range(len(a)):
+    for j in a[i+1:]:
+        if a[i] == j:
+            a.remove(a[i])
+            a.remove(j)
+print(a)
 
